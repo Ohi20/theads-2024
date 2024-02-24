@@ -9,7 +9,7 @@ async function Page() {
 
   // fetch organization list created by user
   const userInfo = await fetchUsers(user.id);
-  if (!userInfo?.onboarded) redirect("/onboarding");
+  // if (!userInfo?.onboarded) redirect("/onboarding");
 
   return (
     <>
